@@ -12,6 +12,7 @@ import { FootComponent } from './foot/foot.component';
 import { BodyComponent } from './body.component';
 import { routing } from'./app.routes';
 import { FeaturesComponent } from './features/features.component';
+import { PricesComponent } from './features/prices/prices.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FeaturesComponent } from './features/features.component';
     HeadComponent,
     FootComponent,
     BodyComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    PricesComponent
   ],
   imports: [
     BrowserModule,
