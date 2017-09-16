@@ -9,13 +9,16 @@ import { DevelopmentComponent } from'././features/development/development.compon
 
 //path:'' ==> '': default component
 const APP_ROUTES: Routes = [
-  { path:'', component: HomeComponent },
-  { path:'contact', component: ContactComponent},
-  { path:'prices', component: PricesComponent },
+  { path:'home', component: HomeComponent },
+  { path:'contact', component: ContactComponent},  
   { path:'features', children:[
-    { path:'',  component: FeaturesComponent },
-    { path:':development', component: DevelopmentComponent}
-  ]}
+  	{ path:'',  component: FeaturesComponent},
+    { path:'development', component: DevelopmentComponent},
+    { path:'prices', component: PricesComponent },
+    { path:'**', redirectTo: 'features', pathMatch: 'full' },
+  ]},
+  { path: '',  redirectTo: 'home', pathMatch: 'full' },
+  { path: '**', redirectTo: 'home', pathMatch: 'full' },
 ];
 
 export const routing = RouterModule.forRoot(APP_ROUTES);
