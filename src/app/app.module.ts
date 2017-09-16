@@ -13,6 +13,7 @@ import { BodyComponent } from './body.component';
 import { routing } from'./app.routes';
 import { FeaturesComponent } from './features/features.component';
 import { PricesComponent } from './features/prices/prices.component';
+import { DevelopmentComponent } from './features/development/development.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PricesComponent } from './features/prices/prices.component';
     FootComponent,
     BodyComponent,
     FeaturesComponent,
-    PricesComponent
+    PricesComponent,
+    DevelopmentComponent
   ],
   imports: [
     BrowserModule,
