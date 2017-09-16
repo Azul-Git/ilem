@@ -14,6 +14,8 @@ import { routing } from'./app.routes';
 import { FeaturesComponent } from './features/features.component';
 import { PricesComponent } from './features/prices/prices.component';
 import { DevelopmentComponent } from './features/development/development.component';
+import { TrainingComponent } from './features/training/training.component';
+import { MaintenanceComponent } from './features/maintenance/maintenance.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { DevelopmentComponent } from './features/development/development.compone
     BodyComponent,
     FeaturesComponent,
     PricesComponent,
-    DevelopmentComponent
+    DevelopmentComponent,
+    TrainingComponent,
+    MaintenanceComponent
   ],
   imports: [
     BrowserModule,
