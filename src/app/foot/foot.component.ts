@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FootComponent implements OnInit {
 
+  ilem_email_adress = "ilemyiwen@gmail.com";
+
   constructor() { }
 
   ngOnInit() {

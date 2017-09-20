@@ -7,14 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  ilem_email_adress = "ilemyiwen@gmail.com";
 
-  clicked(event){
-    return this.myWord = "sdfjhdsgf";
-  }
+  constructor() { }
 
   ngOnInit() {
   }
-
-  private myWord = "";
 }

@@ -16,7 +16,6 @@ import { PricesComponent } from './features/prices/prices.component';
 import { DevelopmentComponent } from './features/development/development.component';
 import { TrainingComponent } from './features/training/training.component';
 import { MaintenanceComponent } from './features/maintenance/maintenance.component';
-
 @NgModule({
   declarations: [
     AppComponent,
