@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class FootComponent implements OnInit {
 
   ilem_email_adress = "ilemyiwen@gmail.com";
+  foot_text = "Carte visite Ilem Yiwen, faite par ";
 
   constructor() { }
 
