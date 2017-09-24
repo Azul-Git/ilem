@@ -2,37 +2,35 @@
   <br>
   <button type="button" class="btn btn-success btn-sm pull-center" position="relative" (click)= gbclick()>Go Back</button>
 </div>
-<hr>
-<div class="columns">
-  <ul class="price">
-    <li class="header">Basic</li>
-    <li class="grey">$ 9.99 / year</li>
-    <li>10GB Storage</li>
-    <li>10 Emails</li>
-    <li>10 Domains</li>
-    <li>1GB Bandwidth</li>
-    <li class="grey"><a href="#" class="button">Details</a></li>
-  </ul>
-</div>
-<div class="columns">
-  <ul class="price">
-    <li class="header">Basic</li>
-    <li class="grey">$ 9.99 / year</li>
-    <li>10GB Storage</li>
-    <li>10 Emails</li>
-    <li>10 Domains</li>
-    <li>1GB Bandwidth</li>
-    <li class="grey"><a href="#" class="button">Details</a></li>
-  </ul>
-</div>
-<div class="columns">
-  <ul class="price">
-    <li class="header">Basic</li>
-    <li class="grey">$ 9.99 / year</li>
-    <li>10GB Storage</li>
-    <li>10 Emails</li>
-    <li>10 Domains</li>
-    <li>1GB Bandwidth</li>
-    <li class="grey"><a href="#" class="button">Details</a></li>
-  </ul>
+<div class="row">
+  <div class="columns">
+    <ul class="price">
+      <li class="header">MAINTENANCE</li>
+      <li class="grey"><p>À partir de </p><h1>35€</h1>
+      <li class="header">PHONE</li>
+      <li class="grey"><p>-Forfait-</p><h1>60 €</h1>
+      <li class="grey"><a [routerLink]="['price-detail']" fragment="coming" class="button">Details</a></li>
+    </ul>
+  </div>
+  <div class="columns">
+    <ul class="price">
+      <li class="header">DEV</li>
+      <li class="grey"><p>-Devis-</p><h1>-- €</h1>
+      <li class="header">FORMATION</li>
+      <li class="grey"><p>-À partir -</p><h1>30 €/</h1>
+      </li>
+      <li class="grey"><a [routerLink]="['price-detail']" class="button">Details</a></li>
+    </ul>
+  </div>
+  <div class="row">
+    <div class="columns">
+      <ul class="price">
+        <li class="header">INSTALL SYSTÈMES</li>
+        <li class="grey"><p>-Forfait-</p><h1>75 €</h1>
+        <li class="header">À DISTANCE</li>
+        <li class="grey"><p>-Par 1/2 heure-</p><h1>15 €</h1>
+        </li>
+        <li class="grey"><a [routerLink]="['price-detail']" class="button">Details</a></li>
+      </ul>
+    </div>
 </div>

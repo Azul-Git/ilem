@@ -22,7 +22,7 @@
 
 /* Add shadows on hover */
 .price:hover {
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+    box-shadow: 0 15px 25px 0 hsla(0, 100%, 90%, 0.3);
 }
 
 /* Pricing header */
@@ -34,7 +34,7 @@
 
 /* List items */
 .price li {
-    border-bottom: 1px solid #eee;
+    border-bottom: none;
     padding: 20px;
     text-align: center;
 }
