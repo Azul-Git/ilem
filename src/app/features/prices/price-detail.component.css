@@ -1,0 +1,46 @@
+.jumbotron{
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  padding: 5%;
+  text-align:justify;
+  background-color: rgb(101, 118, 148);
+  border-radius: 5%;
+}
+.columns {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    padding: 5%;
+}
+/* Style the list */
+.price {
+    list-style-type: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: rgb(27, 60, 76);
+}
+/* Pricing header */
+.price .header {
+    background-color: rgb(19, 41, 57);
+    color: white;
+    font-size: 25px;
+}
+/* List items */
+.price li {
+    border-bottom: none;
+    padding: 20px;
+    text-align: center;
+}
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}

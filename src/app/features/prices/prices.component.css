@@ -17,17 +17,18 @@
     padding: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    background-color: #563d7c;
+    background-color: rgb(27, 60, 76);
 }
 
 /* Add shadows on hover */
 .price:hover {
     box-shadow: 0 15px 25px 0 hsla(0, 100%, 90%, 0.3);
+    background-color: transparent;
 }
 
 /* Pricing header */
 .price .header {
-    background: rgb(50, 0, 90);
+    background: rgb(19, 41, 57);
     color: white;
     font-size: 25px;
 }
@@ -46,7 +47,7 @@
 
 /* The "Sign Up" button */
 .button {
-    background-color: #4CAF50;
+    background-color: #4000ff;
     border: none;
     border-radius: 5%;
     color: white;
