@@ -1,5 +1,11 @@
 .btn-secondary {
   color: #fff;
-  background-color: rgb(7, 50, 78);
-  border-color: #868e96;
+  background-color: #868e96;
+  border-style: solid;
+  border-color: #fff;
+}
+.features-menu{
+  text-align: justify;
+}
+.features-menu-title{
 }

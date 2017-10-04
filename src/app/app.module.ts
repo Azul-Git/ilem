@@ -17,6 +17,7 @@ import { DevelopmentComponent } from './features/development/development.compone
 import { TrainingComponent } from './features/training/training.component';
 import { MaintenanceComponent } from './features/maintenance/maintenance.component';
 import { PriceDetailComponent } from './features/prices/price-detail.component';
+import { FeatureDetailComponent } from './features/feature-detail/feature-detail.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +31,8 @@ import { PriceDetailComponent } from './features/prices/price-detail.component';
     DevelopmentComponent,
     TrainingComponent,
     MaintenanceComponent,
-    PriceDetailComponent
+    PriceDetailComponent,
+    FeatureDetailComponent
   ],
   imports: [
     BrowserModule,

@@ -1,31 +1,30 @@
 <div class="container">
-  <div class="row row-offcanvas">
-    <div class="col-12 col-md-12">
-      <div class="row">
-        <div class="col-6 col-lg-3">
-          <h3>Développement</h3>
-          <p>langages, technologies et tous les outils utilisés dans le dévelopement informatique.</p>
-          <p><a class="btn btn-secondary" routerLink="/features/development" role="button">Détails »</a></p>
-        </div><!--/span-->
-        <div class="col-6 col-lg-3">
-          <h3>Formations</h3>
-          <p>Les formations en inforamtique qui peuvent être assurées. </p>
-          <p><a class="btn btn-secondary" routerLink="/features/training" role="button">Détails »</a></p>
-        </div><!--/span-->
-        <div class="col-6 col-lg-3">
-          <h3>Maintennance</h3>
-          <p>installation, maintenance et réparation de materiel/logiciel informatique.  </p>
-          <p><a class="btn btn-secondary" routerLink="/features/maintenance" role="button">Détails »</a></p>
-        </div><!--/span-->
-        <div class="col-6 col-lg-3">
-          <h3>Prices</h3>
-          <p>On trouve les technologies à découvrir. </p>
-          <p><a class="btn btn-secondary" routerLink="/features/prices"  role="button">Détails »</a></p>
-        </div><!--/span-->
-      </div><!--/row-->
+  <div class="col-md-3">
+    <div class="features-menu">
+      <h3 class="features-menu-title">Développement</h3>
+      <p>langages, technologies et tous les outils utilisés dans le dévelopement informatique.</p>
+      <p><a class="btn btn-secondary" routerLink="development" routerLinkActive= "active" role="button">Détails »</a></p>
     </div><!--/span-->
-    <div class="col-12 col-md-6">
-    </div>
+    <div class="features-menu">
+      <h3 class="features-menu-title">Formations</h3>
+      <p>Les formations en inforamtique qui peuvent être assurées. </p>
+      <p><a class="btn btn-secondary" routerLink="/features/training" role="button">Détails »</a></p>
+    </div><!--/span-->
+    <div class="features-menu">
+      <h3 class="features-menu-title">Maintennance</h3>
+      <p>installation, maintenance et réparation de materiel/logiciel informatique.  </p>
+      <p><a class="btn btn-secondary" routerLink="/features/maintenance" role="button">Détails »</a></p>
+    </div><!--/span-->
+    <div class="features-menu">
+      <h3 class="features-menu-title">Prices</h3>
+      <p>On trouve les technologies à découvrir. </p>
+      <p><a class="btn btn-secondary" routerLink="/features/prices"  role="button">Détails »</a></p>
+    </div><!--/span-->
   </div><!--/row-->
-  <hr>
+  <div class="col-md-6p">
+    <hr>
+    <router-outlet></router-outlet>
+
+  </div>
+
 </div>
