@@ -3,17 +3,17 @@
     <div class="features-menu">
       <h3 class="features-menu-title">Développement</h3>
       <p>langages, technologies et tous les outils utilisés dans le dévelopement informatique.</p>
-      <p><a class="btn btn-secondary" routerLink="development" routerLinkActive= "active" role="button">Détails »</a></p>
+      <p><a class="btn btn-secondary" (click)="selectComponent('dev')">Détails »</a></p>
     </div><!--/span-->
     <div class="features-menu">
       <h3 class="features-menu-title">Formations</h3>
       <p>Les formations en inforamtique qui peuvent être assurées. </p>
-      <p><a class="btn btn-secondary" routerLink="/features/training" role="button">Détails »</a></p>
+      <p><a class="btn btn-secondary" (click)="selectComponent('train')">Détails »</a></p>
     </div><!--/span-->
     <div class="features-menu">
       <h3 class="features-menu-title">Maintennance</h3>
       <p>installation, maintenance et réparation de materiel/logiciel informatique.  </p>
-      <p><a class="btn btn-secondary" routerLink="/features/maintenance" role="button">Détails »</a></p>
+      <p><a class="btn btn-secondary" (click)="selectComponent('maint')">Détails »</a></p>
     </div><!--/span-->
     <div class="features-menu">
       <h3 class="features-menu-title">Prices</h3>
@@ -23,8 +23,7 @@
   </div><!--/row-->
   <div class="col-md-6p">
     <hr>
-    <router-outlet></router-outlet>
-
+    <app-switch-cmpnt [selectedComponent]="selectedComponent"></app-switch-cmpnt>
   </div>
 
 </div>

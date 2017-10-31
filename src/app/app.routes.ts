@@ -6,19 +6,19 @@ import { HomeComponent } from '././home/home.component';
 import { FeaturesComponent } from'././features/features.component';
 import { PricesComponent } from'././features/prices/prices.component';
 import { PriceDetailComponent } from'././features/prices/price-detail.component';
-import { DevelopmentComponent } from'././features/development/development.component';
+
 //path:'' ==> '': default component
 const APP_ROUTES: Routes = [
   { path:'home', component: HomeComponent },
   { path:'contact', component: ContactComponent},
   { path:'features', children:[
-    { path:'developpment', component: DevelopmentComponent },
     { path:'prices', children:[
       { path:'', component: PricesComponent },
       { path:'price-detail', component: PriceDetailComponent }
     ]},
-    { path:'',  component: FeaturesComponent },
-    { path:'**', redirectTo: 'features', pathMatch: 'full' }
+    { path:'', component: FeaturesComponent },
+    { path: '',  redirectTo: 'features', pathMatch: 'full' },
+    { path: '**', redirectTo: 'features', pathMatch: 'full' },
   ]},
   { path: '',  redirectTo: 'home', pathMatch: 'full' },
   { path: '**', redirectTo: 'home', pathMatch: 'full' },
