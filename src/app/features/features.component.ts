@@ -16,14 +16,14 @@ export class FeaturesComponent implements OnInit {
 
   ngOnInit() {
   }
-  selectComponent(option:string){
-    switch(option){
-      case "dev": this.selectedComponent = DevelopmentComponent; break;
-      case "train":  this.selectedComponent = TrainingComponent; break;
-      case "maint": this.selectedComponent = MaintenanceComponent; break;
-      default: this.selectedComponent = DevelopmentComponent;
-    }
-  }
+  // selectComponent(option:string){
+  //   switch(option){
+  //     case "dev": this.selectedComponent = DevelopmentComponent; break;
+  //     case "train":  this.selectedComponent = TrainingComponent; break;
+  //     case "maint": this.selectedComponent = MaintenanceComponent; break;
+  //     default: this.selectedComponent = DevelopmentComponent;
+  //   }
+  // }
 
 
 }

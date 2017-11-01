@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
@@ -17,7 +17,6 @@ import { DevelopmentComponent } from './features/development/development.compone
 import { TrainingComponent } from './features/training/training.component';
 import { MaintenanceComponent } from './features/maintenance/maintenance.component';
 import { PriceDetailComponent } from './features/prices/price-detail.component';
-import { SwitchCmpntComponent } from './features/switch-cmpnt.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,8 +30,7 @@ import { SwitchCmpntComponent } from './features/switch-cmpnt.component';
     DevelopmentComponent,
     TrainingComponent,
     MaintenanceComponent,
-    PriceDetailComponent,
-    SwitchCmpntComponent
+    PriceDetailComponent
   ],
   imports: [
     BrowserModule,
