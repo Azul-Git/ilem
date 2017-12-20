@@ -64,3 +64,8 @@
         width: 100%;
     }
 }
+
+.glyphicon {
+  color: #5F2871;
+  cursor: pointer;
+}

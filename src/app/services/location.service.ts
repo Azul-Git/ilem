@@ -4,8 +4,6 @@ import { Location } from'@angular/common';
 @Injectable()
 export class LocationService {
 
-  path: string;
-  component: any;
   constructor(private _location: Location) { }
 
   goBack(){
