@@ -12,6 +12,7 @@ import { MaintenanceComponent } from'././features/maintenance/maintenance.compon
 
 // path:'' ==> '': default component
 const APP_ROUTES = [
+  {path:'*', redirectTo:'home', pathMatch: 'full'},
   {path:'', redirectTo:'home', pathMatch: 'full'},
   {path:'home', component: HomeComponent},
   {path:'contact', component: ContactComponent},

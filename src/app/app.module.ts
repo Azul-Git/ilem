@@ -9,7 +9,6 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { HeadComponent } from './head/head.component';
 import { FootComponent } from './foot/foot.component';
-import { BodyComponent } from './body.component';
 import { routing } from'./app.routes';
 import {ScrollToModule} from 'ng2-scroll-to';
 
@@ -26,7 +25,6 @@ import { PriceDetailComponent } from './features/prices/price-detail.component';
     HomeComponent,
     HeadComponent,
     FootComponent,
-    BodyComponent,
     FeaturesComponent,
     PricesComponent,
     DevelopmentComponent,

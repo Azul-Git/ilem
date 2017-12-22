@@ -1,6 +1,5 @@
 <div class="header_features">
-  <br>
-  <h2> <span class="glyphicon glyphicon-arrow-left" (click)= gbclick()></span> Go Back</h2>
+  <button class="glyphicon glyphicon-arrow-left" (click)=gbclick() id="myGoBacklBtn" title="Go to back"> Back</button>
 </div>
 <div class="row">
   <div class="columns">
@@ -9,7 +8,7 @@
       <li class="grey"><p>À partir de </p><h1>30€</h1>
       <li class="header">PHONE</li>
       <li class="grey"><p>-Forfait-</p><h1>60 €</h1>
-      <li class="grey"><a [routerLink]="['priceDetail']" class="button">Details</a></li>
+      <li class="grey"><a [routerLink]="['priceDetail']" scroll="#maintenancePriceId" class="button">Details</a></li>
     </ul>
   </div>
   <div class="columns">
@@ -22,7 +21,6 @@
       <li class="grey"><a [routerLink]="['priceDetail']" class="button">Details</a></li>
     </ul>
   </div>
-  <div class="row">
     <div class="columns">
       <ul class="price">
         <li class="header">INSTALL SYSTÈMES</li>
