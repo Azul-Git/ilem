@@ -18,8 +18,8 @@ export class PriceDetailComponent implements OnInit {
   ngOnInit() {
   }
 
-  //call goBack function in LocalService 
-  gbclick(){
+  //call goBack function in LocalService
+  gbclick($event){
     this._locationService.goBack();
   }
 
@@ -38,5 +38,4 @@ export class PriceDetailComponent implements OnInit {
       // document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
   }
-
 }

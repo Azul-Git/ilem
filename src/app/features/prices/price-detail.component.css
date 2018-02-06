@@ -54,6 +54,7 @@
   display: none;
   position: fixed;
   bottom: 20px;
+  top: 90%;
   right: 30px;
   z-index: 100;
   border: none;
@@ -69,7 +70,7 @@
   background-color: #555;
 }
 
-#myGoBacklBtn{
+#myGoBacklcd{
   position: relative;
   top:20%;
   left:-44%;
