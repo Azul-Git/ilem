@@ -70,10 +70,23 @@
   background-color: #555;
 }
 
-#myGoBacklcd{
+/*#myGoBacklcd{
   position: relative;
   top:20%;
   left:-44%;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}*/
+#myGoBacklBtn{
+  position: relative;
+  top:20%;
+  left:-42%;
   border: none;
   outline: none;
   background-color: green;
