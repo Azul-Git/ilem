@@ -1,14 +1,12 @@
 <div class="inner-cover">
-  <h1 id="log">
-    ⵉⵢ
-  </h1>
+  <img [src]="myLogo" alt="" class="Large_logo_img"/>
   <h1 class="cover-heading">Ilem Yiwen</h1>
-  <p class="lead">Développement, formation et maintenance informatique.</p>
+  <p class="lead">{{home_text}}</p>
   <address>
   <strong>contact</strong><br>
   <a routerLink="/contact">{{ilem_email_adress}}</a>
   </address>
   <p class="lead">
-    <a (click)="clicked()" class="btn btn-lg btn-default">Learn more</a>
+    <!-- <a (click)="clicked()" class="btn btn-lg btn-default">Learn more</a> -->
   </p>
 </div>
