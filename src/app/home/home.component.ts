@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  myLogo: string ='/assets/logo_IlemYiwen1_white.png';
+  myLogo: string ='/ilem/assets/logo_IlemYiwen1_white.png';
 
   home_text= "Développement, formation, installation et maintenance informatique"
 
