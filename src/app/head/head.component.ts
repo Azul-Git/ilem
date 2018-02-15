@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeadComponent implements OnInit {
   //logo image link
-  myLogo: string ='/ilem/assets/logo_IlemYiwen1_white.png';
+  myLogo: string ='/assets/logo_IlemYiwen1_white.png';
 
   constructor() { }
 
