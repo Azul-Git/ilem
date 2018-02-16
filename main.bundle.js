@@ -211,7 +211,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/contact/contact.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!--\n<h1>ⵉⵢ Ilem Yiwen</h1>\n<hr>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<h2>{{contact_text}}</h2> -->\n<!-- <link href=\"https://fonts.googleapis.com/css?family=Oleo+Script:400,700\" rel=\"stylesheet\"> -->\n<link href=\"https://fonts.googleapis.com/css?family=Teko:400,700\" rel=\"stylesheet\">\n<link href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\">\n<section id=\"contact\">\n  <div class=\"section-content\">\n    <h1 class=\"section-header\">Contact us </h1>\n    <h3>Commencez par indiquer votre adresse mail, votre nom ainsi que votre numéro avant d'envoyer votre message</h3>\n  </div>\n  <div class=\"contact-section\">\n    <div class=\"container\">\n      <form>\n        <div class=\"col-md-6 form-line\">\n         <div class=\"form-group\">\n           <label for=\"exampleInputUsername\">Your name</label>\n           <input type=\"text\" class=\"form-control\" id=\"\" placeholder=\" Enter Name\">\n         </div>\n         <div class=\"form-group\">\n           <label for=\"exampleInputEmail\">Email Address</label>\n           <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail\" placeholder=\" Enter Email address\">\n         </div>\n         <div class=\"form-group\">\n           <label for=\"telephone\">Mobile No.</label>\n           <input type=\"tel\" class=\"form-control\" id=\"telephone\" placeholder=\" Enter phone number\">\n         </div>\n        </div>\n        <div class=\"col-md-6\">\n         <div class=\"form-group\">\n           <label for =\"description\"> Message</label>\n           <textarea  class=\"form-control\" id=\"description\" placeholder=\"Enter Message\"></textarea>\n         </div>\n         <div>\n           <button type=\"button\" class=\"btn btn-default submit\"><i class=\"fa fa-paper-plane\" aria-hidden=\"true\"></i>  Send Message</button>\n         </div>\n        </div>\n      </form>\n    </div>\n  </div>\n</section>\n"
+module.exports = "<!--\n<h1>ⵉⵢ Ilem Yiwen</h1>\n<hr>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<h2>{{contact_text}}</h2> -->\n<!-- <link href=\"https://fonts.googleapis.com/css?family=Oleo+Script:400,700\" rel=\"stylesheet\"> -->\n<link href=\"https://fonts.googleapis.com/css?family=Teko:400,700\" rel=\"stylesheet\">\n<link href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\">\n<section id=\"contact\">\n  <div class=\"section-content\">\n    <h1 class=\"section-header\">Contact us </h1>\n    <h3>Contact sur l'adresse mail:</h3><br>\n    <h3>ilemyiwen@gmail.com</h3>\n  </div>\n  <!-- <div class=\"contact-section\">\n    <div class=\"container\">\n      <form>\n        <div class=\"col-md-6 form-line\">\n         <div class=\"form-group\">\n           <label for=\"exampleInputUsername\">Your name</label>\n           <input type=\"text\" class=\"form-control\" id=\"\" placeholder=\" Enter Name\">\n         </div>\n         <div class=\"form-group\">\n           <label for=\"exampleInputEmail\">Email Address</label>\n           <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail\" placeholder=\" Enter Email address\">\n         </div>\n         <div class=\"form-group\">\n           <label for=\"telephone\">Mobile No.</label>\n           <input type=\"tel\" class=\"form-control\" id=\"telephone\" placeholder=\" Enter phone number\">\n         </div>\n        </div>\n        <div class=\"col-md-6\">\n         <div class=\"form-group\">\n           <label for =\"description\"> Message</label>\n           <textarea  class=\"form-control\" id=\"description\" placeholder=\"Enter Message\"></textarea>\n         </div>\n         <div>\n           <button type=\"button\" class=\"btn btn-default submit\"><i class=\"fa fa-paper-plane\" aria-hidden=\"true\"></i>  Send Message</button>\n         </div>\n        </div>\n      </form>\n    </div>\n  </div> -->\n</section>\n"
 
 /***/ }),
 
@@ -791,7 +791,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var HeadComponent = (function () {
     function HeadComponent() {
         //logo image link
-        this.myLogo = '/ilem/assets/logo_IlemYiwen1_white.png';
+        this.myLogo = '/assets/logo_IlemYiwen1_white.png';
     }
     HeadComponent.prototype.ngOnInit = function () {
     };
@@ -852,7 +852,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var HomeComponent = (function () {
     function HomeComponent() {
-        this.myLogo = '/ilem/assets/logo_IlemYiwen1_white.png';
+        this.myLogo = '/assets/logo_IlemYiwen1_white.png';
         this.home_text = "Développement, formation, installation et maintenance informatique";
         this.ilem_email_adress = "ilemyiwen@gmail.com";
     }
