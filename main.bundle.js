@@ -791,7 +791,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var HeadComponent = (function () {
     function HeadComponent() {
         //logo image link
-        this.myLogo = '/assets/logo_IlemYiwen1_white.png';
+        this.myLogo = '/ilem/assets/logo_IlemYiwen1_white.png';
     }
     HeadComponent.prototype.ngOnInit = function () {
     };
@@ -852,7 +852,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var HomeComponent = (function () {
     function HomeComponent() {
-        this.myLogo = '/assets/logo_IlemYiwen1_white.png';
+        this.myLogo = '/ilem/assets/logo_IlemYiwen1_white.png';
         this.home_text = "Développement, formation, installation et maintenance informatique";
         this.ilem_email_adress = "ilemyiwen@gmail.com";
     }
